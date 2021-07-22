@@ -1,7 +1,7 @@
 build: 
 
-
-
+zip: 
+	python3 zip_release.py
 git: 
 	git add -A
 	git commit -m "${user} at $(date +'%D %T')"

@@ -19,6 +19,6 @@ via Web (MdBook), PDF (Latex) & if possible Ebook.
     - [ ] Error Handling 
     - [ ] Macros in Rust
 
-> For more details of each chaper, look at docs/plan.pdf 
+> For more details of each chaper, look at [docs/plan.pdf](docs/plan.pdf) 
 
 This book is liscenced under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
