@@ -4,7 +4,7 @@ zip:
 	python3 zip_release.py
 git: 
 	git add -A
-	git commit -m "${user} at $(date +'%D %T')"
+	git commit -m "updated content"
 	git push
 tex: 
 	cd tex && pdflatex main x 2
