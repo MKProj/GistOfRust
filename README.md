@@ -1,3 +1,5 @@
+<img src="images/cover.png" width="225px">
+
 The Gist of Rust book is to give a beginner into the Rust programming language. This book gives insight into beginner/intermediate 
 topics of Rust, such as Macros or Error Handling. I hope to release this book with new topics on Rust 2021 edition, and will ditribute this
 via Web (MdBook), PDF (Latex) & if possible Ebook. 
