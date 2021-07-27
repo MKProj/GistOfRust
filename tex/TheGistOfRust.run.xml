@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>GistOfRust.bcf</file>
+      <file>TheGistOfRust.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>GistOfRust.bbl</file>
+      <file>TheGistOfRust.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -60,23 +60,23 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>GistOfRust</infile>
+      <infile>TheGistOfRust</infile>
     </cmdline>
     <input>
-      <file>GistOfRust.bcf</file>
+      <file>TheGistOfRust.bcf</file>
     </input>
     <output>
-      <file>GistOfRust.bbl</file>
+      <file>TheGistOfRust.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>GistOfRust.bbl</file>
+      <file>TheGistOfRust.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>GistOfRust.bcf</file>
+      <file>TheGistOfRust.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliography.bib</file>
