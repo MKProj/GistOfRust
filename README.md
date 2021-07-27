@@ -5,9 +5,9 @@ topics of Rust, such as Macros or Error Handling. I hope to release this book wi
 via Web (MdBook), PDF (Latex) & if possible Ebook. 
 
 - Getting Started
-    - [ ] What is Rust? 
-    - [ ] What is Cargo?
-    - [ ] Program Structure 
+    - [X] What is Rust? 
+    - [X] What is Cargo?
+    - [X] Program Structure 
 - Basics of Rust
     - [ ] Variables & Data Types 
     - [ ] Collection Types 
