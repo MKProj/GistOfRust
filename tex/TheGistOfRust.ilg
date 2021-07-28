@@ -1,6 +1,4 @@
 This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
-Scanning input file TheGistOfRust.idx....done (1 entries accepted, 0 rejected).
-Sorting entries...done (0 comparisons).
-Generating output file TheGistOfRust.ind....done (5 lines written, 0 warnings).
-Output written in TheGistOfRust.ind.
+Scanning input file TheGistOfRust.idx...done (0 entries accepted, 0 rejected).
+Nothing written in TheGistOfRust.ind.
 Transcript written in TheGistOfRust.ilg.

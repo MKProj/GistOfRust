@@ -1,3 +1,4 @@
+.PHONY: tex
 build: 
 	make mdbook
 	make tex 
@@ -13,7 +14,7 @@ git:
 	git push
 tex: 
 	cd tex && pdflatex TheGistOfRust x 2
-	mv tex/TheGistOfRust.pdf docs/
+	cp tex/TheGistOfRust.pdf docs/
 plan-tex:
 	cd plan && pdflatex plan.tex x 2
 	mv plan/plan.pdf docs/

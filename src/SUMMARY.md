@@ -1,7 +1,7 @@
 # Summary
 
 # Getting Started
-- [What is Rust?](01-rust.md)
+- [What is Rust?](index.md)
 - [What is Cargo?](02-cargo.md)
 - [Program Structure](03-prog_struct.md)
 # Basics of Rust

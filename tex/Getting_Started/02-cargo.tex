@@ -1,0 +1,26 @@
+\chapter{What is Cargo?}
+\par We talked a little bit about Cargo already, but to review, Cargo is Rust's package manager and is your goto tool to create Rust programs. In Rust we have two different type of projects, \textbf{bin} \& \textbf{lib}, 
+which stand for binary \& library respectively. 
+
+\begin{itemize}
+    \item \textbf{Binary}: A program built to be executed, the program is compiled and executed by it's binary file.
+    \item \textbf{Library}: A program built to store various modules, functions, etc. The program is meant to store various components a binary project may use. 
+\end{itemize}
+
+\par \noindent So why don't we create a cargo project? By default it's binary, and for our purposes that's completely fine. 
+
+\begin{verbatim}
+    # To create a new project use cargo new <project name>
+    $ cargo new hello_world
+         Created binary (application) `hello_world` package
+    $ cd hello_world # Change directory to hello_world 
+    $ ls
+    Cargo.toml src    
+\end{verbatim}
+
+\par \noindent A Cargo package contains the following: 
+
+\begin{itemize}
+    \item Cargo.toml (Used to specify metadata of the project)
+    \item src (Contains all of the source code of the project)
+\end{itemize}
